@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: linear-gradient(to right, gray, rgb(8, 8, 8));
+    font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+/* MENU */ 
+header{
+    box-sizing: border-box;
+    background: #000;
+    opacity: 0.7;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > a {
+    margin: 0 auto;
+}
+
+header a img {
+    padding-top: 5px;
+}
+
+#nav-header {
+    margin: 0 auto;
+}
+
+#menuHeader{
+    display: flex;   
+}
+
+#menuHeader li {
+    padding: 10px;
+    margin-left: 15px;
+}
+
+#menuHeader a {
+    color: #fff;
+    
+
+}
+
+#menuHeader a:hover {
+    color: rgba(8, 136, 8, 0.8);
+    font-weight: bold;
+    font-size: 20px;
+    transition: 1s;
+}
+
+
+/*CORPO SITE */
+
+#container {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#box h1 {
+    color: #fff;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+#box p {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#box button {
+    border: none;
+    border-radius: 20px;
+    height: 15px;
+    padding:  25px 40px;
+    margin: 10px;
+    background: #1DB954;
+    line-height: 1px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#box button:hover {
+    background: #000;
+    transition: 1s;
+}
+
+/* FOOTER */
+
+#footer {
+    height: 400px;
+    background: #000;
+    padding: 50px;
+    display: flex;
+    flex: wrap;
+}
+
+#container-footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#container-footer a {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    font-size: 13px;
+
+
+}
+
+#container-footer a:hover {
+    color: rgba(8, 136, 8, 0.8);
+    font-size: 20px;
+    transition: 1s;
+}
+
+
+#container-footer h5 {
+    display: block;
+    color: rgba(230, 230, 230, 0.63);
+    padding: 10px;
+
+}
+
+#footer-icons {
+    display: flex;
+    
+}
+
+#footer-icons a {
+    padding-left: 20px;
+}
+
+/* TELA DE CADASTRO */
+
+
